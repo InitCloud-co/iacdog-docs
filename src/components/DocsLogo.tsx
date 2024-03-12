@@ -4,13 +4,13 @@ import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 export const DocsLogo = () => {
   const { siteConfig } = useDocusaurusContext();
   return (
-    <div style={{ display: "flex", justifyContent: "center" }}>
-      <Link to="/" style={{ margin: "10px" }}>
+    <div className="flex justify-center">
+      <Link to="/" className="m-2">
         <img
           src={`${
             siteConfig.baseUrl ? `${siteConfig.baseUrl}/` : ""
           }img/logo.png`}
-          style={{ maxWidth: 200 }}
+          className=" max-w-[200px]"
         />
       </Link>
     </div>

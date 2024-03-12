@@ -13,11 +13,10 @@ function HomepageHeader() {
     <header className={clsx(styles.heroBanner)}>
       <div>
         <DocsLogo />
-        <Heading as="h1" className="hero__title" style={{ marginTop: "1em" }}>
+        <Heading as="h1" className="hero__title">
           {siteConfig.title}
         </Heading>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
-
         <div className={styles.buttons}>
           <Link className="button button--secondary button--md" to="docs/intro">
             View Docs
