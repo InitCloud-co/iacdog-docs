@@ -26,7 +26,7 @@ RUN addgroup --system --gid 1001 nodejs
 RUN adduser --system --uid 1001 docusaurus
 
 COPY --from=builder /app/build ./build
-COPY --from=builder /app/build /usr/share/nginx/html/iacdog/docs
+COPY --from=builder /app/build /usr/share/nginx/html/iacdog/about
 
 # CMD ["yarn", "serve", "--build", "--port", "80", "--host", "0.0.0.0"]
 
