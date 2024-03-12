@@ -1,0 +1,15 @@
+Dockerfile
+.docusaurus
+node_modules
+npm-debug.log
+README.md
+Makefile
+makefile
+# .next
+.git
+.DS_Store
+.yarn/*
+
+.env.make
+
+./build
