@@ -2,7 +2,7 @@
 sidebar_position: 4
 ---
 
-# Settings
+# Settings 탭
 
 다이어그램과 관련한 다양한 **설정**을 제공합니다.
 

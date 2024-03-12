@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 3
 ---
 
 # About IaCDOG
@@ -27,7 +27,7 @@ sidebar_position: 1
 
 <br />
 
-타 `IaC 시각화 서비스`와 비교했을때 `IaCDOG`은:
+**타 IaC 시각화 서비스와 비교했을때 IaCDOG은:**
 
 1. **클라우드 리소스**를 기준으로 다이어그램을 제공하여 인프라 구조를 파악하기 용이합니다.
 2. `tfplan` 파일을 시각화하지 않고 `tf` 파일을 스캔하여 별도의 api 통신 없이 빠른 시각화가 가능합니다.

@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Blocks
+# Blocks 탭
 
 다이어그램 **리소스**와 **정책**들의 **상세 정보**를 제공합니다.
 

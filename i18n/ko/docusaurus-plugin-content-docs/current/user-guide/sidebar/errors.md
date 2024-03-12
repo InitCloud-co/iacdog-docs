@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Errors
+# Errors 탭
 
 시각화 과정에서 발생한 **오류** 정보를 제공합니다.
 

@@ -1,10 +1,10 @@
-# 사이드바
+# Sidebar
 
 **사이드바**는 **다이어그램**과 **인터랙티브**하게 작동합니다.
 
 ![IaCDOG-sidebar-border](./img/sidebar.png)
 
-## 모듈 선택 {#select-module}
+## Module Selection {#module-selection}
 
 업로드한 `terraform` 모듈이 **다중 모듈**일 경우, **사이드바 상단**에서 원하는 **모듈을 선택**할 수 있습니다.
 

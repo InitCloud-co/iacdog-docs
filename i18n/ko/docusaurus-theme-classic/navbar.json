@@ -7,9 +7,9 @@
     "message": "IaCDOG Logo",
     "description": "The alt text of navbar logo"
   },
-  "item.label.Tutorial": {
-    "message": "Tutorial",
-    "description": "Navbar item with label Tutorial"
+  "item.label.Docs": {
+    "message": "Docs",
+    "description": "Navbar item with label Docs"
   },
   "item.label.Blog": {
     "message": "Blog",

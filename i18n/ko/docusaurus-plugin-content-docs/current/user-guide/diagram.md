@@ -4,7 +4,9 @@ sidebar_position: 3
 
 # Diagram
 
-## 리소스 {#resource}
+정적 `terraform` 코드를 다이어그램으로 제공합니다.
+
+## Resource {#resource}
 
 다이어그램은 리소스 간의 포함관계와 연결관계를 반영하여 그려집니다.
 
@@ -15,7 +17,7 @@ sidebar_position: 3
 - **리소스의 아이콘**
 - **리소스의 이름** (`terraform`의 block name)
 - **리소스의 타입** (`terraform`의 block type)
-- `terraform`에 특정 정보가 있을 경우, 함께 표시됩니다. (e.g. `cidr`)
+- `terraform`에 특정 정보가 있을 경우, 함께 표시됩니다. (_e.g. `cidr`_)
 
 :::note
 
@@ -23,7 +25,7 @@ sidebar_position: 3
 
 :::
 
-### 툴팁 {#tooltip}
+### Tooltip {#tooltip}
 
 커서를 리소스에 두면 화면 좌측 상단에 `tooltip`이 나타납니다.
 
@@ -35,7 +37,7 @@ sidebar_position: 3
 
 :::
 
-### 리소스 요약 {#summarize}
+### Summarize resource {#summarize}
 
 **그룹 리소스**의 경우 해당 리소스의 좌측 상단의 `-`, `+` 버튼을 클릭해 하위 리소스를 **요약하거나 요약 해제**할 수 있습니다.
 

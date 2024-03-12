@@ -4,7 +4,9 @@ sidebar_position: 2
 
 # Run Visualization
 
-## IaCDOG 접속 {#goto-iacdog}
+빠르고 가독성 좋은 정적 코드 시각화를 경험해보세요.
+
+## Go to IaCDOG {#goto-iacdog}
 
 <p align="center">
   <a
@@ -21,7 +23,7 @@ sidebar_position: 2
 
 **로그인 없이** 바로 서비스 이용이 가능합니다.
 
-## Terraform 모듈 업로드 {#upload-your-terraform-module}
+## Upload your terraform module {#upload-your-terraform-module}
 
 `terraform` 모듈(단일 파일 혹은 폴더)를 업로드 해주세요.
 

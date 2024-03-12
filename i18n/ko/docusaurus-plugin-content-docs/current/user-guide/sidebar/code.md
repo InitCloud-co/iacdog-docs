@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# Code
+# Code 탭
 
 시각화된 다이어그램의 **원본 코드**를 확인할 수 있습니다.
 
