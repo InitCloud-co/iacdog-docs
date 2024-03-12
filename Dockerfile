@@ -26,20 +26,7 @@ RUN addgroup --system --gid 1001 nodejs
 RUN adduser --system --uid 1001 docusaurus
 
 COPY --from=builder /app/build ./build
-COPY --from=builder /app/build /usr/share/nginx/html
-
-# COPY --from=builder /app/.docusaurus ./.docusaurus
-# COPY package.json ./
-
-# RUN mkdir .next
-# RUN chown docusaurus:nodejs .next
-
-# USER docusaurus
-
-# EXPOSE 80
-
-# ENV PORT 80
-# ENV HOSTNAME "0.0.0.0"
+COPY --from=builder /app/build /usr/share/nginx/html/iacdog/docs
 
 # CMD ["yarn", "serve", "--build", "--port", "80", "--host", "0.0.0.0"]
 
