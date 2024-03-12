@@ -1,0 +1,12 @@
+{
+  "[markdown]": {
+    "editor.quickSuggestions": true,
+    "autoClosingPairs": [
+      { "open": "**", "close": "**" },
+      { "open": "[", "close": "]" },
+      { "open": "\"", "close": "\"" },
+      { "open": "'", "close": "'" }
+      { "open": "`", "close": "`" }
+    ]
+  }
+}

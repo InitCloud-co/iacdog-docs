@@ -1,0 +1,34 @@
+---
+sidebar_position: 1
+---
+
+# About IaCDOG
+
+`IaCDOG`은 `IaC`의 시각화를 지원하는 도구로, `Terraform`을 사용한다면 누구나 빠르고 편하게 시각화를 진행할 수 있습니다. 현재는 `Terraform` 시각화만을 지원하고 있으며, 지속적으로 여러 `IaC` 시각화까지 넓혀나갈 예정입니다.
+
+<p align="center">
+  <a
+    href="https://www.initcloud.io/iacdog/visualizer"
+    target="_blank"
+    rel="noreferrer noopener"
+    alt="iacdog-logo"
+  >
+    <img src="/img/logo.png" alt="id" style={{ width: 200 }} />
+  </a>
+</p>
+
+<br />
+
+:::note
+
+`IaCDOG`는 `terraform` 파싱을 위해 서버로 파일을 전송하며, 절대 저장하지 않습니다. 안심하고 사용하세요!
+
+:::
+
+<br />
+
+타 `IaC 시각화 서비스`와 비교했을때 `IaCDOG`은:
+
+1. **클라우드 리소스**를 기준으로 다이어그램을 제공하여 인프라 구조를 파악하기 용이합니다.
+2. `tfplan` 파일을 시각화하지 않고 `tf` 파일을 스캔하여 별도의 api 통신 없이 빠른 시각화가 가능합니다.
+3. Drag&Drop 방식의 시각화가 아닌 **코드 기반의 시각화**를 제공하여 실무에 적용하기 편리합니다.

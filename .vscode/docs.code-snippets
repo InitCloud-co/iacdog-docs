@@ -1,0 +1,62 @@
+{
+  "IaCDOG": {
+    "prefix": ["id", "iacdog"],
+    "body": ["IaCDOG"],
+    "description": "type IaCDOG"
+  },
+  "terraform": {
+    "prefix": "tr",
+    "body": ["`terraform`"],
+    "description": "type terraform"
+  },
+  "assets": {
+    "prefix": "asts",
+    "body": ["./assets/docusaurus-asset-"],
+    "description": ""
+  },
+  "IaCDOG link": {
+    "prefix": "idl",
+    "body": ["https://www.initcloud.io/iacdog/visualizer"],
+    "description": "type IaCDOG"
+  },
+  "markdown link": {
+    "prefix": "link",
+    "body": ["[$1]($0)"],
+    "description": ""
+  },
+  "markdown image": {
+    "prefix": "img",
+    "body": ["![$1]($0)"],
+    "description": ""
+  },
+  "br": {
+    "prefix": "br",
+    "body": ["<br/>\n"],
+    "description": ""
+  },
+  "Admonition note": {
+    "prefix": "note",
+    "body": [":::note", "", "$0", "", ":::", ""],
+    "description": ""
+  },
+  "Admonition tip": {
+    "prefix": "tip",
+    "body": [":::tip", "", "$0", "", ":::", ""],
+    "description": ""
+  },
+  "Admonition info": {
+    "prefix": "info",
+    "body": [":::info", "", "$0", "", ":::", ""],
+    "description": ""
+  },
+  "Admonition warning": {
+    "prefix": "warning",
+    "body": [":::warning", "", "$0", "", ":::", ""],
+    "description": ""
+  },
+  "Admonition danger": {
+    "prefix": "danger",
+    "body": [":::danger", "", "$0", "", ":::", ""],
+    "description": ""
+  }
+}

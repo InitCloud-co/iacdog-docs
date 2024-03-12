@@ -1,0 +1,29 @@
+initcloud:
+  name: Init Cloud Corp.
+  title: Init Cloud
+  url: https://github.com/InitCloud-co
+  image_url: https://github.com/InitCloud-co.png
+
+taein:
+  name: taein
+  title: Init Cloud CEO
+  url: https://github.com/taeng0204
+  image_url: https://github.com/taeng0204.png
+
+FoO-511:
+  name: FoO-511
+  title: Front End Engineer @ Init Cloud
+  url: https://github.com/FoO-511
+  image_url: https://github.com/FoO-511.png
+
+dammy:
+  name: dammy
+  title: Init Cloud COO
+  url: https://github.com/nicedammy
+  image_url: https://github.com/nicedammy.png
+
+inpyu:
+  name: dammy
+  title: Back End Engineer @ Init Cloud
+  url: https://github.com/inpyu
+  image_url: https://github.com/inpyu
